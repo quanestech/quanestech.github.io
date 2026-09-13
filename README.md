@@ -85,11 +85,10 @@ tags:
 2. 在 `Build and deployment` 中选择 `GitHub Actions`。
 3. 推送到 `main` 后，Actions 会自动发布。
 
-如果使用独立部署密钥，先把本机公钥添加到仓库。本机目前发现了两个公钥：
+如果使用独立部署密钥，先把本机公钥添加到仓库。当前建议使用为这个仓库单独生成的公钥：
 
 ```bash
-pbcopy < ~/.ssh/id_ed25519.pub
-pbcopy < ~/.ssh/id_ed25519_kiwivm.pub
+pbcopy < ~/.ssh/id_ed25519_quanestech.pub
 ```
 
-选择其中一个复制到 GitHub 仓库 `Settings > Deploy keys` 中添加，并按需要勾选写权限。当前仓库还没有配置 `git remote`，因此没有自动绑定具体 GitHub 仓库地址。
+复制到 GitHub 仓库 `Settings > Deploy keys` 中添加。如果要从本机 push，需要勾选写权限。
