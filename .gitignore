@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.env.example
+node_modules/
+public/
+.deploy_git/
+db.json
+.hexo/
+_config.github.yml
+_multiconfig.yml
+npm-debug.log*
+
+# Legacy LDAP/Docker deployment files from the previous repository purpose.
+Caddyfile
+docker-compose.yml
+k8s/
+legacy/
