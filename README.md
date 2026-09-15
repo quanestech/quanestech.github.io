@@ -1,6 +1,6 @@
 # Hexo Blog
 
-这个仓库用于发布到 `https://quanestech.github.io/` 的 Hexo 静态博客，支持两种内容来源：
+这个仓库用于发布到 [博客主页](https://quanestech.github.io/) ，支持两种内容来源：
 
 - 直接提交到 `source/_posts/*.md` 的 Markdown 文章
 - GitHub Issues 中带有 `blog` 或 `post` 标签的内容
@@ -86,9 +86,5 @@ tags:
 3. 推送到 `main` 后，Actions 会自动发布。
 
 如果使用独立部署密钥，先把本机公钥添加到仓库。当前建议使用为这个仓库单独生成的公钥：
-
-```bash
-pbcopy < ~/.ssh/id_ed25519_quanestech.pub
-```
 
 复制到 GitHub 仓库 `Settings > Deploy keys` 中添加。如果要从本机 push，需要勾选写权限。
