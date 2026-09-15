@@ -69,3 +69,23 @@ theme: fluid
 
 deploy:
   type:
+
+markdown:
+  preset: default
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: false
+    linkify: false
+    typographer: false
+  plugins:
+    - markdown-it-mathjax3
+  anchors:
+    level: 1
+    permalink: false
+    case: 0
+    separator: "-"
+  images:
+    prepend_root: true
+    post_asset: true
+

@@ -13,6 +13,8 @@ index:
     text: Notes from issues, commits, and daily builds.
 
 post:
+  math:
+    enable: false
   meta:
     date: true
     category: true

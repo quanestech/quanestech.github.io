@@ -1,3 +1,13 @@
+---
+title: 线性方程的几何表示
+date: 2026-09-15 15:35:38
+tags:
+  - linear algebra
+  - math
+categories:
+  - blog
+---
+
 # 线性方程的几何表示
 
 ## 一元一次方程
@@ -44,4 +54,4 @@ $$
 
 矩阵存在行(raw)和(column)的概念，因此在几何上，可以用raw picture和column picture来表示这样的二元一次方程，二元一次方程的raw picture表示的就是在二维座标系中两条线的相交点：
 
-![image](./raw_picture_of_two_unknown.png)
+![二维一次方程组的行图像](raw_picture_of_two_unknown.png)
